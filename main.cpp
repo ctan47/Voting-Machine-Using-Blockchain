@@ -71,7 +71,7 @@ int main(int argv, char* argc[])
 	do {
 		cout << "************************************************************************" << endl;
 		cout << "**                                                                    **" << endl;
-		cout << "**                    Welcome to ASG elections                        **" << endl;  
+		cout << "**                    Welcome to Khamgaon elections                   **" << endl;  
 		cout << "**                                                                    **" << endl;
 		cout << "************************************************************************" << endl;
 		cout << "** Please make a choice from the following options:                   **" << endl;
