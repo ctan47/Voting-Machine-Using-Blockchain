@@ -1,8 +1,7 @@
 /* Final Project
 File Name: TestDriver.cpp
-Programmer:  Emiliia Dyrenkova
-Date Last Modified: 5/23/19
-Problem Statement: Creates a secure system to store ASG elections results and identifies the winner
+Programmer:  Ctan47
+Problem Statement: Creates a secure system to store assembly elections results and identifies the winner
 Overall Plan: 
 1. Create Blockchain class:
   1. private inner class Block:
@@ -68,7 +67,7 @@ int main(int argv, char* argc[])
 	int userChoice = 0;
   int size;
   string *arr;
-  string names[]={"Licol Zeinfeld", "Ahmad Abbasi", "Jose Mendez Entrekin"};
+  string names[]={"Nana Kokare", "Dilip Sananda", "Ashok Sonone"};
 	do {
 		cout << "************************************************************************" << endl;
 		cout << "**                                                                    **" << endl;
@@ -89,7 +88,7 @@ int main(int argv, char* argc[])
       case 1:
         cout<<"Presidential elections\n";
         cout<<"Enter the number corresponding to the candidate of your choice:\n";
-        cout<<"1. Licol Zeinfeld\n"<<"2. Ahmad Abbasi\n"<<"3. Jose Mendez Entrekin\n";
+        cout<<"1. Nana Kokare\n"<<"2.Dilip Sananda\n"<<"3.Ashok Sonone\n";
         cout<<">> ";
         cin>>vote;
         try{
